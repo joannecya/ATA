@@ -3,6 +3,7 @@
     <button @click="genRanNum()">Generate
     random Number </button>
     <h2>{{random_number }}</h2>
+    <h1>check if auto deployment works with github actions</h1>
 </template>
 
 
