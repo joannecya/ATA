@@ -1,8 +1,9 @@
 <template>
     <h1>{{msg}}</h1>
-    <button @click="genRanNum()">Generate
-    random Number </button>
-    <h2>{{random_number }}</h2>
+    <!-- <button @click="genRanNum()">Generate
+    random Number </button> -->
+    <button>Random number</button>
+    <!-- <h2>{{random_number }}</h2> -->
     <h1>check if auto deployment works with github actions</h1>
 </template>
 
@@ -10,7 +11,7 @@
 <script>
 export default {
     name: 'RandomNumber',
-    data(){
+    /* data(){
     return{
     random_number:0
     }
@@ -25,7 +26,7 @@ export default {
     this.random_number = Math.floor(Math.random() * (this.max - this.min + 1) +
     this.min) // generate random number from 1 to 100
     }
-    }
+    } */
 }
 </script>
 
